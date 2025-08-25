@@ -22,7 +22,7 @@ Covers **streaming ingestion (Kafka)**, **batch ETL (Spark)**, **feature store**
 
 ## 🏗️ Architecture
 
-```mermaid
+mermaid
 flowchart TD
     A[IoT POS + Online Orders<br/>(Data Generator)] -->|Kafka topics| B[Kafka]
     B --> C[Spark Structured Streaming<br/>Raw -> Bronze (MinIO)]
