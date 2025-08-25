@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pyspark
+xgboost
+pandas
+pyarrow
+joblib
+mlflow
+kafka-python
